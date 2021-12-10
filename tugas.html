@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!--Menyisipkan Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!--Menyisipkan Javascript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron text-center"; style="background-color: aliceblue;">
+        <h1>Hi! WELCOME</h1>
+        <p>Selamat datang di website ini</p>
+        <hr>
+        <h5>Our Social Media</h5>
+        <a href="https://web.facebook.com/" target="_blank" class="btn btn-primary "> Facebook </a>
+        <a href="https://www.instagram.com/" target="_blank" class="btn btn-danger "> Instagram </a>
+        <a href="https://twitter.com/i/flow/login" target="_blank" class="btn btn-success "> Twitter </a>
+    </div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand " href="#">Hi!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown">Tentang Kami</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#Client">Client</a></li>
+                      <li><a class="dropdown-item" href="#puas">Tingkat Kepuasan</a></li>
+                      <li><a class="dropdown-item" href="#projek">Project</a></li>
+                    </ul>
+                </li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li class="nav-item">
+                  <a href="index.html" role="button" class="nav-link"> log out</a>
+                </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+        </div>
+    </nav>
+    <br>
+    <div id="home">
+        <h2>HI! WEBSITE</h2>
+      <h5>Malang, Dec 7, 2021</h5>
+      <div class="col">
+        <img src="tower.jpg" width="500px" class="img-thumbnail" alt="gambar thumbnail">
+    </div>
+      <p>Selamat Datang di website hi! temen hi!</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do 
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+          exercitation ullamco.id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+      </p>
+    </div>
+    <br>
+    <div class="container" id="Client">
+        <h2>Tabel Client Hi!</h2>
+        <table class="table table-bordered table-striped table-hover">
+            <tr>
+                <th>No.</th>
+                <th>Nama Perusahaan</th>
+                <th>Alamat</th>
+            </tr>
+            <tr>
+                <th>1.</th>
+                <th>PT. Alfa</th>
+                <th>Malang</th>
+            </tr>
+            <tr>
+                <th>2.</th>
+                <th>PT.Bima</th>
+                <th>Surabaya</th>
+            </tr>
+            <tr>
+                <th>3.</th>
+                <th>PT.Alam Semesta</th>
+                <th>Sidoarjo</th>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div class="container" id="puas">
+        <h2>Tingkat Kepuasan Hi!</h2>
+        <div class="row">
+            <div class="col-md-8 bg-primary">Puas 90%</div>
+            <div class="col-md-6 bg-danger">Kurang Puas 10%</div>
+        </div>
+    </div>
+    <br>
+    <div class="jumbotron" id="projek">
+            <div class="container text-center">
+    <h1>Our Project</h1>      
+    <div class="container">
+    <h4>Beberapa project yang bisa kami kerjakan</h4>
+    <h4><b>List Project:</b></h4>
+    <div class="row">
+        <div class="col-md-4">
+          <div class="img-thumbnail">
+            <a href="front.jpg" target="_blank" style="color: inherit; text-decoration: none;">
+              <img src="front.jpg" alt="gambar thumbnail" style="width:100%">
+              <div class="caption">
+                <p>Front End</p>
+              </div>
+            </a>
+          </div>
+        </div>
+    <div class="col-md-4">
+    <div class="img-thumbnail">
+        <a href="back.jpg" target="_blank" style="color: inherit; text-decoration: none;">
+          <img src="back.jpg" alt="gambar thumbnail" style="width:100%">
+          <div class="caption">
+            <p>Back End</p>
+          </div>
+        </a>
+    </div>
+    </div>
+    <div class="col-md-4">
+      <div class="img-thumbnail">
+        <a href="ui.jpg" target="_blank" style="color: inherit; text-decoration: none;">
+          <img src="ui.jpg" alt="gambar thumbnail" style="width:100%">
+          <div class="caption">
+            <p>UI/UX Design</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <br>
+  <footer class="bg-light text-center text-lg-start">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-dark" href="https://mdbootstrap.com/">Hi!Website.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</div>
+</body>
+</html>
